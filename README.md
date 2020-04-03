@@ -18,14 +18,12 @@ packages = c(
 	)
 install.packages(packages, repos = "https://cran.rstudio.com/")
 library(shiny)
-runGitHub("covid_shiny", "nicoFhahn")
+runGitHub("covid_shiny", "djkpandian")
 ```
 # Screenshots
-![alt text](https://i.imgur.com/yP3b7eA.png "Logo Title Text 1")
-![alt text](https://i.imgur.com/PLz7s2e.png "Logo Title Text 1")
 
 ### Acknowledgments
 The folks over at RStudio with the [SuperZIP demo](https://github.com/rstudio/shiny-examples/tree/master/063-superzip-example) which heavily inspired the layout of the leaflet map.
 
 ### Questions/issues/contact
-nico@f-hahn.de, or open a GitHub issue
+joel.pandian@gmail.com, or open a GitHub issue
